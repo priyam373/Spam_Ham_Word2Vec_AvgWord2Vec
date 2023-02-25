@@ -1,1 +1,4 @@
 # Spam_Ham_Word2Vec_AvgWord2Vec
+
+This project aims to classify the message if they are spam or ham. This project involves many steps including text preprocessing which further includes Tokenization, Stopwords, Lemmatization. This project also involves converting words into vectors using word2vec pretrained model and the model which has been trained on the dataset vocabulary from scratch. Avgword2vec has also been used to make the computation efficient as it converts the whole sentences into vectors with feature dimension by taking avg values rather then converting each words into vectors.
+The ensemble technique has been used to train the model with the preprocessed dataset.However, Deep learning model or LSTM RNN also can be used but it requires more computational power due to the presence of multiple hidden layer and multiple neurons.
